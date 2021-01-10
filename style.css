@@ -1,0 +1,242 @@
+ .one{
+     display: none;
+ }
+ #main_container{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+     width: 80vw;
+     height: 45vh;
+     margin: auto;
+     text-align: center;
+ }
+
+#title{
+    width: 50vw;
+    margin-bottom: 5%;
+}
+
+#login_form{
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.login_inputs{
+    border: 1px solid rgb(219,219,219);
+    height: 30px;
+    width: 68vw;
+    padding-left: 2%;
+    font-size: 12px;
+}
+
+#login_button{
+    width: 71vw;
+    border: none;
+    height: 32px;
+    color: #fff;
+    background-color: rgba(0, 149, 246);
+    font-weight: 900;
+    border-radius: 4px;
+}
+
+#divider{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    margin: auto;
+    color: rgba(219,219,219);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.divisor{
+    border-bottom: 1px solid rgba(219, 219, 219);
+    width: 28vw;
+}
+
+#facebook_login{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 50px;
+    justify-content: space-between;
+}
+
+#facebook_icon{
+    width: 16px;
+}
+
+.link{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #385185;
+    
+}
+
+.facebook{
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.password{
+    font-size: 12px;
+}
+
+.register_link{
+    font-weight: 900;
+    color: rgba(0, 149, 246);
+}
+
+#register{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20%;
+}
+
+#apps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 10%;
+}
+
+#app_images{
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+}
+.app_selo{
+    width: 120px;
+}
+
+.footer{
+    font-size: 12px;
+    text-align: center;
+    width: 80vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 15% auto;
+}
+
+.web {
+    display: none;
+}
+
+.footer_line{
+    line-height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgba(142, 142, 142);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer_link{
+    color: rgba(142, 142, 142);
+}
+
+#language{
+    border: none;
+    background-color: transparent;
+    color: rgba(142, 142, 142);
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    appearance:none;
+    font-size: 12px;
+}
+
+@media(min-width: 770px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #columns{
+        display: flex;
+        justify-content: center;
+    }
+    .column{
+        margin-top: 2%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .one, .two{
+        width: 30vw;
+        
+    }
+    .one{
+        margin-right: 0;
+        align-items: end;
+    }
+    #instagram_image{
+        width: 410px;
+    }
+    .two{
+        margin-left: 0;
+        align-items: center;
+    }
+    #main_container{
+        border: 1px solid rgb(219,219,219);
+        width: 25vw;
+        height: 400px;
+        margin-top: 5%;
+        padding: 2%;
+        }
+    #title{
+        width: 180px;
+    }
+    .login_inputs{
+        width: 20vw;
+    }
+    #login_button{
+        width: 21vw;
+    }
+    #divider{
+        width: 20vw;
+    }
+    .divisor{
+        width: 100px;
+    }
+    #facebook_login{
+        width: 30vw;
+    }
+    .facebook{
+        width: 15vw;
+    }
+    
+    #register{
+        border: 1px solid rgb(219,219,219);
+        width: 24.9vw;
+        padding: 2%;
+        margin-top: 2%;
+    }
+    #app_images{
+        width: 20vw;
+    }
+    .footer{
+        font-size: 12px;
+        text-align: center;
+        width: 58vw;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .mobile{
+        display: none;
+    }
+}
